@@ -26,6 +26,7 @@ class CartAdapter(
                 textView22.text = cartPrices[position]
                 imageView6.setImageResource(cartImages[position]) // Assuming `cartImage` is an ImageView
                 quantity.text = itemQuantities[position].toString()
+
             }
         }
     }
