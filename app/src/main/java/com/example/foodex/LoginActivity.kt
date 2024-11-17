@@ -14,6 +14,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // Inflate the layout using view binding
+//comment
         binding = ActivityLoginBinding.inflate(layoutInflater)
 
         // Set the content view to the root of the binding
